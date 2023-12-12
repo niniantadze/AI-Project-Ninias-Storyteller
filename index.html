@@ -5,50 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>🧚‍♀️ Ninia's AI storyteller 📝</title>
     <link rel="stylesheet" href="source/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merienda:wght@300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header><h1>Ninia's AI storyteller 📚</h1></header>
+    <div class="container">
+      <header><h1>Ninia's AI storyteller 🪁</h1></header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          name=""
-          id=""
-          placeholder="Enter the topic of short story 🌻"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div id="story">
-        In a quiet forest, Fox Felix discovered a magical flower,
-        <br />
-        granting him the gift of speech. He united animals,
-        <br />
-        bringing laughter to the once-silent woods.
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            class="instructions"
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter the topic of short story 🌻"
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <input class="submitButton" type="submit" />
+        </form>
+        <div class="story">
+          In a quiet forest, Fox Felix discovered a magical flower,
+          <br />
+          granting him the gift of speech. He united animals,
+          <br />
+          bringing laughter to the once-silent woods.
+        </div>
+      </main>
 
-    <footer>
-      This AI project is coded by
-      <strong
-        ><a href="https://www.linkedin.com/in/nino-antadze/" target="_blank"
-          >Nini Antadze </a
-        >🧚‍♀️</strong
-      >
-      is
-      <a
-        href="https://github.com/niniantadze/AI-Project-Ninias-Storyteller"
-        target="_blank"
-        >open-sourced on 🐱 Github</a
-      >
-      and is
-      <a href="https://ninias-ai-storyteller.netlify.app/" target="_blank"
-        >hosted on Netlify </a
-      >!
-    </footer>
+      <footer>
+        This AI project is coded by
+        <strong
+          ><a href="https://www.linkedin.com/in/nino-antadze/" target="_blank"
+            >Nini Antadze </a
+          >🧚‍♀️</strong
+        >
+        is
+        <a
+          href="https://github.com/niniantadze/AI-Project-Ninias-Storyteller"
+          target="_blank"
+          >open-sourced on 🐱 Github</a
+        >
+        and is
+        <a href="https://ninias-ai-storyteller.netlify.app/" target="_blank"
+          >hosted on Netlify </a
+        >!
+      </footer>
+    </div>
     <script src="source/script.js"></script>
   </body>
 </html>

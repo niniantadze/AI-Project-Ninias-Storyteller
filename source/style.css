@@ -1,0 +1,86 @@
+body {
+  background: #b29aac;
+  font-family: "Lato", sans-serif;
+  font-family: "Lora", serif;
+}
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #1f326c;
+  text-align: center;
+}
+form {
+  padding: 30px;
+  background: #eec1c1;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(76, 78, 111, 0.4);
+  width: 80%;
+  font-size: 18px;
+  border-radius: 25px;
+  line-height: 20px;
+  color: #1f316c;
+  font-weight: bolder;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.submitButton {
+  margin-left: 10px;
+  background: #835888;
+  color: white;
+  width: 130px;
+  border: none;
+  border-radius: 25px;
+  padding: 14px, 24px;
+  font-size: 18px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  color: #4c4e70;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.story {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  background-color: rgb(238, 193, 193);
+  padding: 20px;
+  line-height: 2;
+  border-left: 4px solid #1f326a;
+  border-radius: 2px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
+  color: #835888;
+  transition: all 120ms ease-in-out;
+}
+a:first-child {
+  color: #1f326a;
+}
+a:hover {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 35px;
+}
