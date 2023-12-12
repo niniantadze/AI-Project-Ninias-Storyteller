@@ -19,20 +19,23 @@
       <header><h1>Ninia's AI storyteller 🪁</h1></header>
 
       <main>
-        <form id="story-generator-form">
-          <input
-            class="instructions"
-            type="text"
-            name=""
-            id="user-instructions"
-            placeholder="Enter the topic of short story 🌻"
-            autofocus
-            required
-            autocomplete="off"
-          />
-          <input class="submitButton" type="submit" />
-        </form>
-        <div class="story" id="story"></div>
+        <div class="form-container">
+          <form id="story-generator-form">
+            <input
+              class="instructions"
+              type="text"
+              name=""
+              id="user-instructions"
+              placeholder="Enter topic of a short story 🌻"
+              autofocus
+              required
+              autocomplete="off"
+            />
+            <input class="submitButton" type="submit" />
+          </form>
+          <div class="hint">E.g: 💖 Love, 🌜 Moon or 🦊 Little fox...</div>
+        </div>
+        <div class="story hidden" id="story"></div>
       </main>
 
       <footer>

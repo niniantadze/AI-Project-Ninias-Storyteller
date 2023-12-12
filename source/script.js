@@ -21,6 +21,11 @@ function generateStory(event) {
   console.log(`Prompt:${prompt}`);
   console.log(`Context:${context}`);
 
+  let storyElement = document.querySelector(".story");
+  storyElement.classList.remove("hidden");
+
+  storyElement.innerHTML = `<span class="blink">⏳ Generating magical story about ${instructionsInput.value} for you...✨"</span>`;
+
   axios.get(apiUrl).then(displayStory);
 }
 
