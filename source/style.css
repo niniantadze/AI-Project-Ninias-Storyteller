@@ -84,3 +84,7 @@ footer {
   text-align: center;
   margin-top: 35px;
 }
+
+.story strong {
+  color: #1f326a;
+}
